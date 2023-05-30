@@ -1,1 +1,1 @@
-This folder contains app of this project
+This folder contains app of this project. This contain Lab3task2 app which is task of lab 5
