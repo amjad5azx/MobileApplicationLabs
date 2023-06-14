@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Home 🏠"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/menu_item2"
+        android:icon="@drawable/ic_info"
+        android:title="About ℹ️"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/menu_item3"
+        android:title="Setting ⚙️"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="withText"
+        />
+</menu>

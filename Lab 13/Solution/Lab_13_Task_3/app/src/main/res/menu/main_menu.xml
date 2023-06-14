@@ -1,0 +1,30 @@
+<!-- main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_item_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/menu_item_about"
+        android:icon="@drawable/ic_info"
+        android:title="About" />
+
+    <item
+        android:id="@+id/menu_item_options"
+        android:title="Options">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/menu_item_rate"
+                    android:title="Rate App" />
+            </group>
+        </menu>
+    </item>
+</menu>
